@@ -1,0 +1,12 @@
+# Ignorar apenas o ambiente virtual Python
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+__pycache__/
+*.pyc
+
+# Permitir que outros arquivos sejam versionados
+!.gitignore
+!requirements.txt
